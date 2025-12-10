@@ -1,0 +1,351 @@
+Category,Subcategory,Resource Name,Type,Cost,URL/Source,Description,Skill Level,Priority
+Active Directory,Enumeration,BloodHound,Tool,Free,https://github.com/BloodHoundAD/BloodHound,Graph-based AD relationship and attack path analysis,Beginner,Critical
+Active Directory,Enumeration,SharpHound,Tool,Free,https://github.com/BloodHoundAD/SharpHound,Data collector for BloodHound,Beginner,Critical
+Active Directory,Enumeration,PowerView,Tool,Free,https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon,PowerShell-based AD enumeration framework,Beginner,Critical
+Active Directory,Enumeration,SharpView,Tool,Free,https://github.com/tevora-threat/SharpView,C# port of PowerView for better evasion,Intermediate,High
+Active Directory,Enumeration,ADRecon,Tool,Free,https://github.com/adrecon/ADRecon,AD enumeration tool that generates Excel reports,Beginner,Medium
+Active Directory,Enumeration,ldapdomaindump,Tool,Free,https://github.com/dirkjanm/ldapdomaindump,LDAP enumeration tool,Beginner,Medium
+Active Directory,Credential Access,Mimikatz,Tool,Free,https://github.com/gentilkiwi/mimikatz,Credential extraction and manipulation,Intermediate,Critical
+Active Directory,Credential Access,Rubeus,Tool,Free,https://github.com/GhostPack/Rubeus,Kerberos interaction and abuse toolkit,Intermediate,Critical
+Active Directory,Credential Access,SafetyKatz,Tool,Free,https://github.com/GhostPack/SafetyKatz,Mimikatz fork with better evasion,Intermediate,High
+Active Directory,Credential Access,SharpDPAPI,Tool,Free,https://github.com/GhostPack/SharpDPAPI,DPAPI manipulation for credential extraction,Advanced,Medium
+Active Directory,Credential Access,pypykatz,Tool,Free,https://github.com/skelsec/pypykatz,Python implementation of Mimikatz,Intermediate,Medium
+Active Directory,Credential Access,LaZagne,Tool,Free,https://github.com/AlessandroZ/LaZagne,Local credential recovery tool,Beginner,Medium
+Active Directory,Kerberos Attacks,Impacket,Tool,Free,https://github.com/SecureAuthCorp/impacket,Python classes for network protocols (GetUserSPNs GetNPUsers),Intermediate,Critical
+Active Directory,Kerberos Attacks,Kerberoast,Tool,Free,https://github.com/nidem/kerberoast,Kerberoasting attack toolkit,Intermediate,High
+Active Directory,Kerberos Attacks,kerbrute,Tool,Free,https://github.com/ropnop/kerbrute,Kerberos username enumeration and bruteforcing,Beginner,High
+Active Directory,Lateral Movement,CrackMapExec,Tool,Free,https://github.com/byt3bl33d3r/CrackMapExec,Swiss army knife for pentesting networks,Intermediate,Critical
+Active Directory,Lateral Movement,NetExec,Tool,Free,https://github.com/Pennyw0rth/NetExec,Fork of CrackMapExec with active development,Intermediate,Critical
+Active Directory,Lateral Movement,evil-winrm,Tool,Free,https://github.com/Hackplayers/evil-winrm,WinRM shell for lateral movement,Beginner,High
+Active Directory,Lateral Movement,PsExec,Tool,Free,https://docs.microsoft.com/en-us/sysinternals/downloads/psexec,Sysinternals tool for remote execution,Beginner,High
+Active Directory,Lateral Movement,WMIExec,Tool,Free,Part of Impacket,WMI-based remote command execution,Intermediate,High
+Active Directory,Lateral Movement,SMBExec,Tool,Free,Part of Impacket,SMB-based remote command execution,Intermediate,High
+Active Directory,Lateral Movement,atexec,Tool,Free,Part of Impacket,Execute commands via Task Scheduler,Intermediate,Medium
+Active Directory,Persistence,SharPersist,Tool,Free,https://github.com/mandiant/SharPersist,Windows persistence toolkit,Advanced,High
+Active Directory,Persistence,Invoke-EventVwrBypass,Tool,Free,https://github.com/enigma0x3/Misc-PowerShell-Stuff,UAC bypass technique,Advanced,Medium
+Active Directory,Privilege Escalation,PowerUp,Tool,Free,https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc,Windows privilege escalation checks,Intermediate,Critical
+Active Directory,Privilege Escalation,SharpUp,Tool,Free,https://github.com/GhostPack/SharpUp,C# port of PowerUp,Intermediate,Critical
+Active Directory,Privilege Escalation,Certify,Tool,Free,https://github.com/GhostPack/Certify,AD Certificate Services abuse,Advanced,Critical
+Active Directory,Privilege Escalation,Certipy,Tool,Free,https://github.com/ly4k/Certipy,Python tool for AD CS attacks,Advanced,Critical
+Active Directory,Privilege Escalation,PrivescCheck,Tool,Free,https://github.com/itm4n/PrivescCheck,Windows privilege escalation enumeration,Intermediate,High
+Active Directory,Privilege Escalation,PEASS-ng (WinPEAS),Tool,Free,https://github.com/carlospolop/PEASS-ng,Privilege escalation enumeration suite,Beginner,High
+Active Directory,MSSQL Attacks,PowerUpSQL,Tool,Free,https://github.com/NetSPI/PowerUpSQL,PowerShell toolkit for SQL Server attacks,Advanced,High
+Active Directory,MSSQL Attacks,SQLRecon,Tool,Free,https://github.com/skahwah/SQLRecon,MSSQL enumeration and exploitation,Advanced,High
+Active Directory,Delegation Attacks,Whisker,Tool,Free,https://github.com/eladshamir/Whisker,Shadow credentials attack tool,Advanced,High
+Active Directory,Delegation Attacks,pywhisker,Tool,Free,https://github.com/ShutdownRepo/pywhisker,Python implementation of Whisker,Advanced,High
+Active Directory,Delegation Attacks,KrbRelayUp,Tool,Free,https://github.com/Dec0ne/KrbRelayUp,Local privilege escalation via Kerberos relaying,Advanced,Medium
+Active Directory,Password Attacks,Hashcat,Tool,Free,https://hashcat.net/hashcat/,Advanced password cracking,Intermediate,Critical
+Active Directory,Password Attacks,John the Ripper,Tool,Free,https://www.openwall.com/john/,Password cracking tool,Intermediate,High
+Active Directory,Password Attacks,CrackStation,Website,Free,https://crackstation.net/,Online hash cracking,Beginner,Medium
+Active Directory,C2 Framework,Cobalt Strike,Tool,$3500/year,https://www.cobaltstrike.com/,Commercial C2 framework (industry standard),Advanced,High
+Active Directory,C2 Framework,Sliver,Tool,Free,https://github.com/BishopFox/sliver,Open-source C2 framework,Intermediate,Critical
+Active Directory,C2 Framework,Havoc,Tool,Free,https://github.com/HavocFramework/Havoc,Modern open-source C2 framework,Intermediate,High
+Active Directory,C2 Framework,Mythic,Tool,Free,https://github.com/its-a-feature/Mythic,Collaborative multi-platform C2 framework,Advanced,Medium
+Active Directory,C2 Framework,Covenant,Tool,Free,https://github.com/cobbr/Covenant,.NET-based C2 framework,Intermediate,Medium
+Active Directory,Forest/Domain Trusts,GetUserSPNs.py,Tool,Free,Part of Impacket,Kerberoasting across trusts,Intermediate,High
+Active Directory,Forest/Domain Trusts,GetNPUsers.py,Tool,Free,Part of Impacket,AS-REP roasting,Intermediate,High
+Active Directory,Forest/Domain Trusts,krbrelayx,Tool,Free,https://github.com/dirkjanm/krbrelayx,Kerberos relay attacks,Advanced,Medium
+Active Directory,Azure/Cloud,AADInternals,Tool,Free,https://github.com/Gerenios/AADInternals,Azure AD and Office 365 hacking toolkit,Advanced,Critical
+Active Directory,Azure/Cloud,ROADtools,Tool,Free,https://github.com/dirkjanm/ROADtools,Azure AD exploration framework,Advanced,Critical
+Active Directory,Azure/Cloud,AzureHound,Tool,Free,https://github.com/BloodHoundAD/AzureHound,Azure data collector for BloodHound,Intermediate,Critical
+Active Directory,Azure/Cloud,MicroBurst,Tool,Free,https://github.com/NetSPI/MicroBurst,PowerShell toolkit for Azure security assessments,Intermediate,High
+Active Directory,Azure/Cloud,PowerZure,Tool,Free,https://github.com/hausec/PowerZure,PowerShell framework for Azure exploitation,Intermediate,High
+Active Directory,Azure/Cloud,Azure CLI,Tool,Free,https://docs.microsoft.com/en-us/cli/azure/,Official Azure command-line tool,Beginner,High
+Active Directory,Azure/Cloud,Az PowerShell,Tool,Free,https://docs.microsoft.com/en-us/powershell/azure/,PowerShell module for Azure,Beginner,High
+Active Directory,Azure/Cloud,Microsoft Graph API,Documentation,Free,https://docs.microsoft.com/en-us/graph/,API documentation for Azure/M365,Intermediate,High
+Active Directory,Documentation,Active Directory Security Blog,Website,Free,https://adsecurity.org/,Sean Metcalf's AD security research,All Levels,Critical
+Active Directory,Documentation,HackTricks - AD,Website,Free,https://book.hacktricks.wiki/windows-hardening/active-directory-methodology,Comprehensive AD attack methodologies,All Levels,Critical
+Active Directory,Documentation,Pentester Academy AD Cheatsheet,Documentation,Free,https://www.pentesteracademy.com/activedirectorylab,AD attack cheatsheet,Intermediate,High
+Active Directory,Documentation,PayloadsAllTheThings - AD,Website,Free,https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md,AD attack payload collection,All Levels,High
+Active Directory,Documentation,The Hacker Recipes,Website,Free,https://www.thehacker.recipes/,Modern offensive security techniques,Intermediate,High
+Active Directory,Documentation,Harmj0y Blog,Website,Free,http://blog.harmj0y.net/,Will Schroeder's offensive security research,Advanced,Critical
+Active Directory,Documentation,SpecterOps Blog,Website,Free,https://posts.specterops.io/,Advanced AD research and techniques,Advanced,Critical
+Active Directory,Documentation,Red Team Notes,Website,Free,https://www.ired.team/,Red team tactics and techniques,Intermediate,High
+Active Directory,Documentation,MITRE ATT&CK,Website,Free,https://attack.mitre.org/,Adversary tactics and techniques knowledge base,All Levels,Critical
+Active Directory,Book,Active Directory Security,Book,$45,https://www.packtpub.com/product/active-directory-security/9781801818896,Comprehensive AD security guide,Intermediate,High
+Active Directory,Training,PentesterAcademy AD Course,Course,$249-499,https://www.pentesteracademy.com/activedirectorylab,CRTP/CRTE training,Intermediate,Critical
+Active Directory,Training,Altered Security Labs,Course,$249-499,https://www.alteredsecurity.com/,CRTP/CRTE/CRTO training,Intermediate,Critical
+Active Directory,Training,TCM Security AD Course,Course,Included in PNPT,https://academy.tcm-sec.com/,Practical AD pentesting,Beginner,High
+Active Directory,Training,OffSec PEN-200,Course,$1649,https://www.offensive-security.com/pwk-oscp/,OSCP course with AD content,Intermediate,High
+Active Directory,Lab Environment,HackTheBox,Platform,$14/month,https://www.hackthebox.com/,AD-focused machines and Pro Labs,All Levels,Critical
+Active Directory,Lab Environment,TryHackMe,Platform,$10/month,https://tryhackme.com/,AD learning paths,Beginner,High
+Active Directory,Lab Environment,GOAD (Game of Active Directory),Lab,Free,https://github.com/Orange-Cyberdefense/GOAD,Vulnerable AD lab environment,Intermediate,Critical
+Active Directory,Lab Environment,DetectionLab,Lab,Free,https://github.com/clong/DetectionLab,AD lab with security monitoring,Intermediate,High
+Active Directory,Lab Environment,Vulnerable AD,Lab,Free,https://github.com/WazeHell/vulnerable-AD,Intentionally vulnerable AD environment,Intermediate,High
+Reverse Engineering,Disassembler,IDA Pro,Tool,$1879-3519,https://hex-rays.com/ida-pro/,Industry-standard disassembler and decompiler,Intermediate,Critical
+Reverse Engineering,Disassembler,Ghidra,Tool,Free,https://ghidra-sre.org/,NSA's free reverse engineering suite,Intermediate,Critical
+Reverse Engineering,Disassembler,Binary Ninja,Tool,$399-4999,https://binary.ninja/,Modern disassembler with Python API,Intermediate,High
+Reverse Engineering,Disassembler,Radare2/Rizin,Tool,Free,https://rada.re/,Open-source reverse engineering framework,Advanced,Medium
+Reverse Engineering,Disassembler,Cutter,Tool,Free,https://cutter.re/,GUI for Rizin/Radare2,Intermediate,High
+Reverse Engineering,Disassembler,Hopper,Tool,$99-399,https://www.hopperapp.com/,macOS/Linux disassembler,Intermediate,Medium
+Reverse Engineering,Debugger,x64dbg,Tool,Free,https://x64dbg.com/,Windows debugger for x64/x32,Beginner,Critical
+Reverse Engineering,Debugger,WinDbg,Tool,Free,https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/,Microsoft's powerful Windows debugger,Intermediate,Critical
+Reverse Engineering,Debugger,OllyDbg,Tool,Free,http://www.ollydbg.de/,Classic Windows debugger,Beginner,Medium
+Reverse Engineering,Debugger,Immunity Debugger,Tool,Free,https://www.immunityinc.com/products/debugger/,Debugger with Python scripting for exploit dev,Intermediate,High
+Reverse Engineering,Debugger,GDB,Tool,Free,https://www.gnu.org/software/gdb/,GNU debugger for Linux,Intermediate,High
+Reverse Engineering,Debugger,PEDA,Tool,Free,https://github.com/longld/peda,Python Exploit Development Assistance for GDB,Intermediate,High
+Reverse Engineering,Debugger,GEF,Tool,Free,https://github.com/hugsy/gef,GDB Enhanced Features,Intermediate,High
+Reverse Engineering,Debugger,pwndbg,Tool,Free,https://github.com/pwndbg/pwndbg,GDB plugin for exploit development,Intermediate,High
+Reverse Engineering,Decompiler,Hex-Rays Decompiler,Tool,Included in IDA Pro,https://hex-rays.com/decompiler/,C/C++ decompiler plugin for IDA,Advanced,Critical
+Reverse Engineering,Decompiler,Ghidra Decompiler,Tool,Free,Included in Ghidra,Built-in decompiler,Intermediate,Critical
+Reverse Engineering,Decompiler,RetDec,Tool,Free,https://retdec.com/,Retargetable machine-code decompiler,Intermediate,Medium
+Reverse Engineering,PE Analysis,PE-bear,Tool,Free,https://github.com/hasherezade/pe-bear,PE file analyzer,Beginner,Critical
+Reverse Engineering,PE Analysis,CFF Explorer,Tool,Free,https://ntcore.com/?page_id=388,PE editor and viewer,Beginner,Critical
+Reverse Engineering,PE Analysis,PEview,Tool,Free,http://wjradburn.com/software/,PE file viewer,Beginner,Medium
+Reverse Engineering,PE Analysis,PEiD,Tool,Free,https://www.aldeid.com/wiki/PEiD,PE packer identifier,Beginner,High
+Reverse Engineering,PE Analysis,Detect It Easy (DIE),Tool,Free,https://github.com/horsicq/Detect-It-Easy,PE file type and packer detector,Beginner,High
+Reverse Engineering,PE Analysis,PE Studio,Tool,Free,https://www.winitor.com/,Malware initial assessment tool,Beginner,High
+Reverse Engineering,Hex Editor,HxD,Tool,Free,https://mh-nexus.de/en/hxd/,Hex editor for Windows,Beginner,High
+Reverse Engineering,Hex Editor,010 Editor,Tool,$50,https://www.sweetscape.com/010editor/,Advanced hex editor with templates,Intermediate,High
+Reverse Engineering,Hex Editor,ImHex,Tool,Free,https://github.com/WerWolv/ImHex,Modern hex editor,Beginner,Medium
+Reverse Engineering,Dynamic Analysis,Process Monitor,Tool,Free,https://docs.microsoft.com/en-us/sysinternals/downloads/procmon,Real-time file system and registry monitoring,Beginner,Critical
+Reverse Engineering,Dynamic Analysis,Process Explorer,Tool,Free,https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer,Advanced process management tool,Beginner,Critical
+Reverse Engineering,Dynamic Analysis,API Monitor,Tool,Free,http://www.rohitab.com/apimonitor,Monitor API calls,Intermediate,High
+Reverse Engineering,Dynamic Analysis,Regshot,Tool,Free,https://sourceforge.net/projects/regshot/,Registry snapshot comparison,Beginner,High
+Reverse Engineering,Dynamic Analysis,ProcDOT,Tool,Free,https://www.procdot.com/,Visual analysis of process data,Intermediate,Medium
+Reverse Engineering,Dynamic Analysis,Noriben,Tool,Free,https://github.com/Rurik/Noriben,Portable sandbox malware analysis,Beginner,High
+Reverse Engineering,.NET Analysis,dnSpy,Tool,Free,https://github.com/dnSpy/dnSpy,.NET debugger and assembly editor,Beginner,Critical
+Reverse Engineering,.NET Analysis,ILSpy,Tool,Free,https://github.com/icsharpcode/ILSpy,.NET decompiler,Beginner,High
+Reverse Engineering,.NET Analysis,dotPeek,Tool,Free,https://www.jetbrains.com/decompiler/,JetBrains .NET decompiler,Beginner,High
+Reverse Engineering,.NET Analysis,de4dot,Tool,Free,https://github.com/de4dot/de4dot,.NET deobfuscator,Intermediate,High
+Reverse Engineering,Java Analysis,JD-GUI,Tool,Free,http://java-decompiler.github.io/,Java decompiler,Beginner,High
+Reverse Engineering,Java Analysis,Bytecode Viewer,Tool,Free,https://github.com/Konloch/bytecode-viewer,Java reverse engineering suite,Intermediate,High
+Reverse Engineering,Java Analysis,JAD,Tool,Free,http://www.javadecompilers.com/jad,Java decompiler,Beginner,Medium
+Reverse Engineering,Unpacking,UPX,Tool,Free,https://upx.github.io/,Ultimate Packer for eXecutables,Beginner,High
+Reverse Engineering,Unpacking,UnpacMe,Website,Free,https://www.unpac.me/,Automated malware unpacking service,Intermediate,High
+Reverse Engineering,Unpacking,OllyDumpEx,Tool,Free,https://low-priority.appspot.com/ollydumpex/,OllyDbg plugin for dumping,Intermediate,Medium
+Reverse Engineering,Scripting,IDA Python,Tool,Free,Included in IDA,Python scripting for IDA,Advanced,High
+Reverse Engineering,Scripting,Frida,Tool,Free,https://frida.re/,Dynamic instrumentation toolkit,Advanced,Critical
+Reverse Engineering,Scripting,Unicorn Engine,Tool,Free,https://www.unicorn-engine.org/,CPU emulator framework,Advanced,High
+Reverse Engineering,Scripting,Capstone,Tool,Free,https://www.capstone-engine.org/,Disassembly framework,Advanced,High
+Reverse Engineering,Scripting,Keystone,Tool,Free,https://www.keystone-engine.org/,Assembler framework,Advanced,High
+Reverse Engineering,Scripting,angr,Tool,Free,https://angr.io/,Binary analysis platform,Advanced,High
+Reverse Engineering,Scripting,LIEF,Tool,Free,https://lief.quarkslab.com/,Library for Instrumentation of Executable Formats,Advanced,Medium
+Reverse Engineering,Documentation,Practical Malware Analysis,Book,$50,https://nostarch.com/malware,The definitive malware analysis guide,Beginner,Critical
+Reverse Engineering,Documentation,The IDA Pro Book,Book,$60,https://nostarch.com/idapro2.htm,Comprehensive IDA Pro guide,Intermediate,Critical
+Reverse Engineering,Documentation,Reversing: Secrets of RE,Book,$65,https://www.wiley.com/en-us/Reversing%3A+Secrets+of+Reverse+Engineering-p-9780764574818,Foundational RE book,Intermediate,High
+Reverse Engineering,Documentation,Practical Reverse Engineering,Book,$55,https://www.wiley.com/en-us/Practical+Reverse+Engineering-p-9781118787311,x86 x64 ARM Windows Kernel RE,Advanced,High
+Reverse Engineering,Documentation,Windows Internals,Book,$70,https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals,Essential Windows architecture reference,Intermediate,Critical
+Reverse Engineering,Documentation,The Art of Memory Forensics,Book,$65,https://www.wiley.com/en-us/The+Art+of+Memory+Forensics-p-9781118825099,Memory analysis and forensics,Advanced,High
+Reverse Engineering,Training,Malware Unicorn RE101,Course,Free,https://malwareunicorn.org/workshops/re101.html,Beginner reverse engineering,Beginner,Critical
+Reverse Engineering,Training,Malware Unicorn RE102,Course,Free,https://malwareunicorn.org/workshops/re102.html,Intermediate reverse engineering,Intermediate,Critical
+Reverse Engineering,Training,Open Security Training,Course,Free,https://opensecuritytraining.info/Training.html,Various RE courses,All Levels,Critical
+Reverse Engineering,Training,Practical Malware Analysis Labs,Course,Free,https://github.com/mikesiko/PracticalMalwareAnalysis-Labs,Lab environment for PMA book,Beginner,High
+Reverse Engineering,Training,RPISEC MBE,Course,Free,https://github.com/RPISEC/MBE,Modern Binary Exploitation,Advanced,High
+Reverse Engineering,Training,Azeria Labs,Website,Free,https://azeria-labs.com/,ARM assembly and exploitation,Intermediate,High
+Reverse Engineering,Community,r/ReverseEngineering,Community,Free,https://www.reddit.com/r/ReverseEngineering/,RE community on Reddit,All Levels,Medium
+Reverse Engineering,Community,OpenRCE,Forum,Free,http://www.openrce.org/,RE community and resources,All Levels,Medium
+Malware Analysis,Sandbox,Any.Run,Sandbox,Free/$40-$300/month,https://app.any.run/,Interactive malware analysis sandbox,Beginner,Critical
+Malware Analysis,Sandbox,Joe Sandbox,Sandbox,Free/Paid,https://www.joesandbox.com/,Advanced automated analysis,Intermediate,High
+Malware Analysis,Sandbox,Hybrid Analysis,Sandbox,Free,https://www.hybrid-analysis.com/,Free malware analysis sandbox,Beginner,High
+Malware Analysis,Sandbox,Cuckoo Sandbox,Tool,Free,https://cuckoosandbox.org/,Open-source automated malware analysis,Intermediate,Critical
+Malware Analysis,Sandbox,CAPE Sandbox,Tool,Free,https://github.com/kevoreilly/CAPEv2,Configuration And Payload Extraction sandbox,Intermediate,High
+Malware Analysis,Sandbox,VMRay,Sandbox,Commercial,https://www.vmray.com/,Enterprise malware analysis platform,Advanced,Medium
+Malware Analysis,VM/Environment,FLARE VM,Environment,Free,https://github.com/mandiant/flare-vm,Windows malware analysis distribution,Beginner,Critical
+Malware Analysis,VM/Environment,REMnux,Environment,Free,https://remnux.org/,Linux malware analysis toolkit,Beginner,Critical
+Malware Analysis,VM/Environment,Tsurugi Linux,Environment,Free,https://tsurugi-linux.org/,DFIR Linux distribution,Intermediate,Medium
+Malware Analysis,Memory Analysis,Volatility 2,Tool,Free,https://www.volatilityfoundation.org/,Memory forensics framework,Intermediate,Critical
+Malware Analysis,Memory Analysis,Volatility 3,Tool,Free,https://github.com/volatilityfoundation/volatility3,Next-gen memory forensics,Intermediate,Critical
+Malware Analysis,Memory Analysis,Rekall,Tool,Free,https://github.com/google/rekall,Memory forensic framework,Intermediate,Medium
+Malware Analysis,Memory Analysis,MemProcFS,Tool,Free,https://github.com/ufrisk/MemProcFS,Memory analysis as virtual filesystem,Advanced,High
+Malware Analysis,Network Analysis,Wireshark,Tool,Free,https://www.wireshark.org/,Network protocol analyzer,Beginner,Critical
+Malware Analysis,Network Analysis,NetworkMiner,Tool,Free/$1000,https://www.netresec.com/?page=NetworkMiner,Network forensic analysis tool,Beginner,High
+Malware Analysis,Network Analysis,tcpdump,Tool,Free,https://www.tcpdump.org/,Command-line packet analyzer,Intermediate,High
+Malware Analysis,Network Analysis,Zeek (Bro),Tool,Free,https://zeek.org/,Network security monitor,Advanced,High
+Malware Analysis,Network Analysis,Suricata,Tool,Free,https://suricata.io/,IDS/IPS and network security monitoring,Advanced,High
+Malware Analysis,Network Analysis,INetSim,Tool,Free,https://www.inetsim.org/,Internet services simulation for malware analysis,Intermediate,Critical
+Malware Analysis,Network Analysis,FakeNet-NG,Tool,Free,https://github.com/mandiant/flare-fakenet-ng,Network simulation tool for malware,Intermediate,High
+Malware Analysis,String Analysis,FLOSS,Tool,Free,https://github.com/mandiant/flare-floss,Obfuscated string extraction,Intermediate,Critical
+Malware Analysis,String Analysis,strings,Tool,Free,Built into Linux/Sysinternals,Extract printable strings,Beginner,High
+Malware Analysis,String Analysis,BinText,Tool,Free,https://www.mcafee.com/enterprise/en-us/downloads/free-tools/bintext.html,Extract text from binary files,Beginner,Medium
+Malware Analysis,Yara,YARA,Tool,Free,https://virustotal.github.io/yara/,Pattern matching for malware research,Intermediate,Critical
+Malware Analysis,Yara,yarGen,Tool,Free,https://github.com/Neo23x0/yarGen,YARA rule generator,Intermediate,High
+Malware Analysis,Yara,yaraQA,Tool,Free,https://github.com/YARA-Designer/yaraQA,YARA rule quality assurance,Intermediate,Medium
+Malware Analysis,IOC Extraction,IOC Parser,Tool,Free,https://github.com/armbues/ioc_parser,IOC extraction from files,Beginner,High
+Malware Analysis,IOC Extraction,IOC Finder,Tool,Free,https://github.com/fhightower/ioc-finder,Find IOCs in text,Beginner,High
+Malware Analysis,IOC Extraction,CyberChef,Tool,Free,https://gchq.github.io/CyberChef/,Data manipulation and analysis,Beginner,Critical
+Malware Analysis,Threat Intel,VirusTotal,Website,Free/$,https://www.virustotal.com/,File and URL analysis,Beginner,Critical
+Malware Analysis,Threat Intel,AlienVault OTX,Platform,Free,https://otx.alienvault.com/,Open threat exchange,Beginner,High
+Malware Analysis,Threat Intel,MalwareBazaar,Repository,Free,https://bazaar.abuse.ch/,Malware sample sharing,Intermediate,Critical
+Malware Analysis,Threat Intel,URLhaus,Database,Free,https://urlhaus.abuse.ch/,Malicious URL database,Beginner,High
+Malware Analysis,Threat Intel,Malshare,Repository,Free,https://malshare.com/,Malware sample repository,Intermediate,High
+Malware Analysis,Threat Intel,theZoo,Repository,Free,https://github.com/ytisf/theZoo,Live malware repository (use carefully!),Advanced,Medium
+Malware Analysis,Threat Intel,vx-underground,Repository,Free,https://www.vx-underground.org/,Malware collection and research,Intermediate,High
+Malware Analysis,Threat Intel,MISP,Platform,Free,https://www.misp-project.org/,Threat intelligence sharing platform,Advanced,High
+Malware Analysis,Threat Intel,ANY.RUN Trends,Website,Free,https://any.run/malware-trends/,Real-time malware trends,Beginner,Medium
+Malware Analysis,Automation,Capa,Tool,Free,https://github.com/mandiant/capa,Automatically identify malware capabilities,Intermediate,Critical
+Malware Analysis,Automation,Manalyze,Tool,Free,https://github.com/JusticeRage/Manalyze,Static malware analyzer,Intermediate,High
+Malware Analysis,Automation,PeStudio,Tool,Free,https://www.winitor.com/,Malware initial assessment,Beginner,High
+Malware Analysis,Script Analysis,olevba,Tool,Free,https://github.com/decalage2/oletools,VBA macro analysis,Intermediate,Critical
+Malware Analysis,Script Analysis,oledump,Tool,Free,https://blog.didierstevens.com/programs/oledump-py/,Analyze OLE files,Intermediate,High
+Malware Analysis,Script Analysis,rtfdump,Tool,Free,https://blog.didierstevens.com/programs/rtfdump-py/,Analyze RTF files,Intermediate,Medium
+Malware Analysis,Script Analysis,pdfid,Tool,Free,https://blog.didierstevens.com/programs/pdf-tools/,Identify PDF features,Intermediate,High
+Malware Analysis,Script Analysis,pdf-parser,Tool,Free,https://blog.didierstevens.com/programs/pdf-tools/,Parse PDF files,Intermediate,High
+Malware Analysis,Script Analysis,SpiderMonkey,Tool,Free,https://github.com/buffer/pyv8,JavaScript analysis,Advanced,Medium
+Malware Analysis,Documentation,Malware Analysis Tutorials,Website,Free,https://www.malwareanalysisfordummies.com/,Beginner tutorials,Beginner,High
+Malware Analysis,Documentation,Malware Traffic Analysis,Website,Free,https://www.malware-traffic-analysis.net/,PCAP exercises and training,Intermediate,Critical
+Malware Analysis,Documentation,SANS Malware Analysis Cheat Sheet,Documentation,Free,https://www.sans.org/posters/,Quick reference guides,All Levels,High
+Malware Analysis,Blog,Malware Analysis Blog (Zeltser),Website,Free,https://blog.malwarebytes.com/,Security research and analysis,All Levels,High
+Malware Analysis,Blog,Didier Stevens Blog,Website,Free,https://blog.didierstevens.com/,Malware analysis techniques,Advanced,Critical
+Malware Analysis,Blog,OALabs,Website/YouTube,Free,https://www.youtube.com/c/OALabs,Malware unpacking and analysis,Intermediate,Critical
+Malware Analysis,Blog,MalwareAnalysisForHedgehogs,YouTube,Free,https://www.youtube.com/@MalwareAnalysisForHedgehogs,Video malware analysis tutorials,Beginner,High
+Malware Analysis,Blog,Hexacorn Blog,Website,Free,https://www.hexacorn.com/blog/,Malware research and forensics,Advanced,High
+Malware Analysis,Blog,hasherezade's 1001 Nights,Website,Free,https://hshrzd.wordpress.com/,Malware analysis research,Advanced,High
+Malware Analysis,Training,FOR610: RE Malware,Course,$8200,https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/,SANS malware RE course (GREM prep),Advanced,High
+Malware Analysis,Training,Malware Analysis Bootcamp,Course,Varies,https://www.cybrary.it/,Various malware analysis courses,Beginner,Medium
+Malware Analysis,Training,TCM Malware Analysis,Course,$30,https://academy.tcm-sec.com/,Practical malware analysis,Beginner,High
+Malware Analysis,Community,MalwareTech Blog,Website,Free,https://www.malwaretech.com/,Malware research and analysis,Intermediate,Medium
+Exploit Development,Debugger Plugin,mona.py,Tool,Free,https://github.com/corelan/mona,Exploit development plugin for Immunity,Intermediate,Critical
+Exploit Development,Fuzzing,AFL++,Tool,Free,https://github.com/AFLplusplus/AFLplusplus,Advanced fuzzing framework,Advanced,Critical
+Exploit Development,Fuzzing,LibFuzzer,Tool,Free,https://llvm.org/docs/LibFuzzer.html,In-process coverage-guided fuzzer,Advanced,High
+Exploit Development,Fuzzing,Honggfuzz,Tool,Free,https://github.com/google/honggfuzz,Security-oriented fuzzer,Advanced,High
+Exploit Development,Fuzzing,Boofuzz,Tool,Free,https://github.com/jtpereyda/boofuzz,Network protocol fuzzing,Intermediate,High
+Exploit Development,Fuzzing,Peach Fuzzer,Tool,Commercial,https://www.peach.tech/,Enterprise fuzzing platform,Advanced,Medium
+Exploit Development,Fuzzing,WinAFL,Tool,Free,https://github.com/googleprojectzero/winafl,AFL fork for Windows,Advanced,High
+Exploit Development,Fuzzing,Radamsa,Tool,Free,https://gitlab.com/akihe/radamsa,General-purpose fuzzer,Intermediate,Medium
+Exploit Development,Exploitation,Metasploit Framework,Tool,Free,https://www.metasploit.com/,Penetration testing framework,Beginner,Critical
+Exploit Development,Exploitation,pwntools,Tool,Free,https://github.com/Gallopsled/pwntools,CTF and exploit development framework,Intermediate,Critical
+Exploit Development,Exploitation,ROPgadget,Tool,Free,https://github.com/JonathanSalwan/ROPgadget,ROP chain builder,Advanced,Critical
+Exploit Development,Exploitation,Ropper,Tool,Free,https://github.com/sashs/Ropper,ROP gadget finder,Advanced,Critical
+Exploit Development,Exploitation,One_gadget,Tool,Free,https://github.com/david942j/one_gadget,Find one-shot RCE gadgets,Advanced,High
+Exploit Development,Exploitation,pwndbg libc database,Tool,Free,https://github.com/niklasb/libc-database,Libc version identification,Intermediate,High
+Exploit Development,Exploitation,Exploit Database,Repository,Free,https://www.exploit-db.com/,Public exploit archive,All Levels,Critical
+Exploit Development,Shellcode,msfvenom,Tool,Free,Part of Metasploit,Payload generation,Intermediate,Critical
+Exploit Development,Shellcode,Shellcode Compiler,Tool,Free,http://www.nullsecurity.net/tools/binary.html,Shellcode development,Advanced,Medium
+Exploit Development,Shellcode,Shellter,Tool,Free,https://www.shellterproject.com/,Dynamic shellcode injection,Advanced,High
+Exploit Development,Pattern Tools,pattern_create/pattern_offset,Tool,Free,Part of Metasploit,Buffer overflow offset finding,Beginner,Critical
+Exploit Development,Pattern Tools,pwn cyclic,Tool,Free,Part of pwntools,De Bruijn sequence generation,Intermediate,High
+Exploit Development,Symbolic Execution,angr,Tool,Free,https://angr.io/,Binary analysis and symbolic execution,Advanced,Critical
+Exploit Development,Symbolic Execution,Triton,Tool,Free,https://triton.quarkslab.com/,Dynamic symbolic execution framework,Advanced,High
+Exploit Development,Symbolic Execution,Manticore,Tool,Free,https://github.com/trailofbits/manticore,Symbolic execution tool,Advanced,High
+Exploit Development,Emulation,QEMU,Tool,Free,https://www.qemu.org/,Machine emulator and virtualizer,Intermediate,High
+Exploit Development,Emulation,Unicorn Engine,Tool,Free,https://www.unicorn-engine.org/,Lightweight CPU emulator,Advanced,High
+Exploit Development,Heap Exploitation,how2heap,Tutorial,Free,https://github.com/shellphish/how2heap,Heap exploitation tutorial,Advanced,Critical
+Exploit Development,Heap Exploitation,ptmalloc-fanzine,Documentation,Free,https://github.com/andigena/ptmalloc-fanzine,Ptmalloc internals,Advanced,High
+Exploit Development,Kernel,syzkaller,Tool,Free,https://github.com/google/syzkaller,Kernel fuzzer,Advanced,High
+Exploit Development,Kernel,trinity,Tool,Free,https://github.com/kernelslacker/trinity,Linux system call fuzzer,Advanced,Medium
+Exploit Development,Windows Internals,Process Hacker,Tool,Free,https://processhacker.sourceforge.io/,Advanced process viewer,Intermediate,High
+Exploit Development,Windows Internals,Windows SDK,Tool,Free,https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/,Windows development tools,Intermediate,Critical
+Exploit Development,Windows Internals,Windows Driver Kit,Tool,Free,https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk,Kernel development tools,Advanced,High
+Exploit Development,Documentation,The Shellcoder's Handbook,Book,$60,https://www.wiley.com/en-us/The+Shellcoder%27s+Handbook%3A+Discovering+and+Exploiting+Security+Holes%2C+2nd+Edition-p-9780470080238,Classic exploit development,Advanced,Critical
+Exploit Development,Documentation,Hacking: The Art of Exploitation,Book,$45,https://nostarch.com/hacking2.htm,Foundational exploitation techniques,Beginner,Critical
+Exploit Development,Documentation,A Guide to Kernel Exploitation,Book,$65,https://www.elsevier.com/books/a-guide-to-kernel-exploitation/perla/978-1-59749-486-8,Windows kernel exploitation,Advanced,High
+Exploit Development,Documentation,The Art of Software Security Assessment,Book,$75,https://www.informit.com/store/art-of-software-security-assessment-identifying-and-9780321444424,Code auditing and vulnerability discovery,Advanced,High
+Exploit Development,Documentation,Gray Hat Hacking,Book,$60,https://www.mhprofessional.com/9781260108415-usa-gray-hat-hacking-the-ethical-hackers-handbook-fifth-edition-group,Ethical hacker's handbook,Intermediate,High
+Exploit Development,Training,Corelan Exploit Development,Course,€2950-3450,https://www.corelan-training.com/,Premier exploit dev training,Advanced,Critical
+Exploit Development,Training,Offensive Security EXP-301 (OSED),Course,$1649,https://www.offensive-security.com/exp301-osed/,Windows user-mode exploitation,Advanced,Critical
+Exploit Development,Training,Offensive Security EXP-401 (OSEE),Course,$5999,https://www.offensive-security.com/exp401-osee/,Advanced Windows exploitation,Expert,High
+Exploit Development,Training,RPISEC Modern Binary Exploitation,Course,Free,https://github.com/RPISEC/MBE,University-level exploit dev,Advanced,Critical
+Exploit Development,Training,Exploit Development (Opensecuritytraining),Course,Free,https://opensecuritytraining.info/Exploits1.html,Free exploit dev training,Intermediate,High
+Exploit Development,Blog,Corelan Team,Website,Free,https://www.corelan.be/,Exploit development tutorials,Advanced,Critical
+Exploit Development,Blog,FuzzySecurity,Website,Free,https://www.fuzzysecurity.com/,Windows exploitation tutorials,Intermediate,Critical
+Exploit Development,Blog,ret2systems,Website,Free,https://0x00sec.org/,Exploit development community,Advanced,High
+Exploit Development,CTF Platform,pwnable.kr,Platform,Free,https://pwnable.kr/,Exploitation wargames,Intermediate,Critical
+Exploit Development,CTF Platform,pwnable.tw,Platform,Free,https://pwnable.tw/,Advanced exploitation challenges,Advanced,Critical
+Exploit Development,CTF Platform,pwnable.xyz,Platform,Free,https://pwnable.xyz/,Modern exploitation challenges,Advanced,High
+Exploit Development,CTF Platform,ROP Emporium,Platform,Free,https://ropemporium.com/,Learn return-oriented programming,Intermediate,Critical
+Exploit Development,CTF Platform,Exploit.Education,Platform,Free,https://exploit.education/,Exploitation exercises,Beginner,Critical
+Exploit Development,CTF Platform,Microcorruption,Platform,Free,https://microcorruption.com/,Embedded security CTF,Intermediate,High
+General Security,Operating System,Kali Linux,OS,Free,https://www.kali.org/,Penetration testing distribution,All Levels,Critical
+General Security,Operating System,Parrot Security,OS,Free,https://www.parrotsec.org/,Security-focused Linux distro,All Levels,High
+General Security,Operating System,BlackArch Linux,OS,Free,https://blackarch.org/,Penetration testing distro,Intermediate,Medium
+General Security,Virtualization,VMware Workstation,Tool,$199,https://www.vmware.com/products/workstation-pro.html,Professional virtualization,All Levels,High
+General Security,Virtualization,VirtualBox,Tool,Free,https://www.virtualbox.org/,Free virtualization,All Levels,Critical
+General Security,Virtualization,Hyper-V,Tool,Free,Built into Windows Pro,Windows virtualization,All Levels,High
+General Security,Password Cracking,Hashcat,Tool,Free,https://hashcat.net/hashcat/,Advanced password recovery,Intermediate,Critical
+General Security,Password Cracking,John the Ripper,Tool,Free,https://www.openwall.com/john/,Password cracker,Intermediate,Critical
+General Security,Password Cracking,Hydra,Tool,Free,https://github.com/vanhauser-thc/thc-hydra,Network login cracker,Beginner,High
+General Security,Note Taking,CherryTree,Tool,Free,https://www.giuspen.com/cherrytree/,Hierarchical note taking,All Levels,High
+General Security,Note Taking,Joplin,Tool,Free,https://joplinapp.org/,Open-source note taking,All Levels,High
+General Security,Note Taking,Obsidian,Tool,Free/$50/year,https://obsidian.md/,Knowledge base and note taking,All Levels,High
+General Security,Note Taking,OneNote,Tool,Free,https://www.onenote.com/,Microsoft note taking,All Levels,Medium
+General Security,Reporting,Dradis,Tool,Free,https://dradisframework.com/,Collaboration and reporting,Professional,High
+General Security,Reporting,Plextrac,Tool,Commercial,https://plextrac.com/,Security reporting platform,Professional,Medium
+General Security,Reporting,Ghostwriter,Tool,Free,https://github.com/GhostManager/Ghostwriter,Penetration test reporting,Professional,High
+General Security,Proxy,Burp Suite,Tool,Free/$449/year,https://portswigger.net/burp,Web application security testing,Beginner,Critical
+General Security,Proxy,OWASP ZAP,Tool,Free,https://www.zaproxy.org/,Web app security scanner,Beginner,High
+General Security,Proxy,mitmproxy,Tool,Free,https://mitmproxy.org/,Interactive HTTPS proxy,Intermediate,High
+General Security,Proxy,Fiddler,Tool,Free,https://www.telerik.com/fiddler,Web debugging proxy,Beginner,Medium
+General Security,Network Scanning,Nmap,Tool,Free,https://nmap.org/,Network discovery and security auditing,Beginner,Critical
+General Security,Network Scanning,Masscan,Tool,Free,https://github.com/robertdavidgraham/masscan,Fast port scanner,Intermediate,High
+General Security,Network Scanning,RustScan,Tool,Free,https://github.com/RustScan/RustScan,Modern fast port scanner,Beginner,High
+General Security,Web Scanning,Nikto,Tool,Free,https://github.com/sullo/nikto,Web server scanner,Beginner,High
+General Security,Web Scanning,WPScan,Tool,Free,https://wpscan.com/,WordPress security scanner,Beginner,High
+General Security,Web Scanning,SQLmap,Tool,Free,https://sqlmap.org/,SQL injection tool,Intermediate,Critical
+General Security,Vulnerability Scanning,Nessus,Tool,Free/$4000+/year,https://www.tenable.com/products/nessus,Vulnerability scanner,Professional,High
+General Security,Vulnerability Scanning,OpenVAS,Tool,Free,https://www.openvas.org/,Open-source vulnerability scanner,Intermediate,High
+General Security,Reconnaissance,theHarvester,Tool,Free,https://github.com/laramies/theHarvester,OSINT gathering,Beginner,High
+General Security,Reconnaissance,Recon-ng,Tool,Free,https://github.com/lanmaster53/recon-ng,Reconnaissance framework,Intermediate,High
+General Security,Reconnaissance,Shodan,Website,$59/month,https://www.shodan.io/,Search engine for Internet-connected devices,All Levels,Critical
+General Security,Reconnaissance,Censys,Website,Free/Paid,https://censys.io/,Internet-wide scanning,All Levels,High
+General Security,OSINT,Maltego,Tool,Free/$999/year,https://www.maltego.com/,Link analysis and data mining,Beginner,High
+General Security,OSINT,SpiderFoot,Tool,Free,https://www.spiderfoot.net/,OSINT automation,Intermediate,High
+General Security,Scripting,Python,Language,Free,https://www.python.org/,Essential programming language,All Levels,Critical
+General Security,Scripting,PowerShell,Language,Free,Built into Windows,Windows automation,All Levels,Critical
+General Security,Scripting,Bash,Language,Free,Built into Linux,Linux shell scripting,All Levels,Critical
+General Security,Version Control,Git,Tool,Free,https://git-scm.com/,Version control system,All Levels,Critical
+General Security,Version Control,GitHub,Platform,Free,https://github.com/,Code hosting platform,All Levels,Critical
+General Security,Container,Docker,Tool,Free,https://www.docker.com/,Containerization platform,Intermediate,High
+Learning Resources,CTF Platform,HackTheBox,Platform,$14/month,https://www.hackthebox.com/,Penetration testing labs,All Levels,Critical
+Learning Resources,CTF Platform,TryHackMe,Platform,$10/month,https://tryhackme.com/,Guided cybersecurity learning,Beginner,Critical
+Learning Resources,CTF Platform,PentesterLab,Platform,$20/month,https://pentesterlab.com/,Web penetration testing exercises,Intermediate,High
+Learning Resources,CTF Platform,OverTheWire,Platform,Free,https://overthewire.org/wargames/,Security wargames,Beginner,High
+Learning Resources,CTF Platform,VulnHub,Platform,Free,https://www.vulnhub.com/,Vulnerable VMs,All Levels,High
+Learning Resources,CTF Platform,Root-Me,Platform,Free,https://www.root-me.org/,Hacking challenges,All Levels,High
+Learning Resources,CTF Platform,PicoCTF,Platform,Free,https://picoctf.org/,Educational CTF,Beginner,Medium
+Learning Resources,CTF Platform,CTFtime,Website,Free,https://ctftime.org/,CTF event tracker,All Levels,Medium
+Learning Resources,Blog,IPPSEC,YouTube,Free,https://www.youtube.com/c/ippsec,HackTheBox walkthroughs,Intermediate,Critical
+Learning Resources,Blog,LiveOverflow,YouTube,Free,https://www.youtube.com/c/LiveOverflow,Hacking and CTF content,All Levels,High
+Learning Resources,Blog,John Hammond,YouTube,Free,https://www.youtube.com/c/JohnHammond010,Security and CTF videos,All Levels,High
+Learning Resources,Blog,IppSec Rocks,Website,Free,https://ippsec.rocks/,Searchable video database,Intermediate,High
+Learning Resources,Documentation,OWASP,Website,Free,https://owasp.org/,Web application security project,All Levels,Critical
+Learning Resources,Documentation,CWE,Website,Free,https://cwe.mitre.org/,Common weakness enumeration,All Levels,High
+Learning Resources,Documentation,CVE,Website,Free,https://cve.mitre.org/,Common vulnerabilities and exposures,All Levels,High
+Learning Resources,Documentation,NVD,Website,Free,https://nvd.nist.gov/,National vulnerability database,All Levels,High
+Learning Resources,Podcast,Darknet Diaries,Podcast,Free,https://darknetdiaries.com/,True cybersecurity stories,All Levels,High
+Learning Resources,Podcast,Malicious Life,Podcast,Free,https://malicious.life/,Cybersecurity history,All Levels,Medium
+Learning Resources,Podcast,Risky Business,Podcast,Free,https://risky.biz/,Information security news,All Levels,Medium
+Learning Resources,Conference,DEF CON,Conference,$300+,https://defcon.org/,World's largest hacking conference,All Levels,High
+Learning Resources,Conference,Black Hat,Conference,$2000+,https://www.blackhat.com/,Information security conference,Professional,High
+Learning Resources,Conference,BSides,Conference,Free-$50,https://www.securitybsides.com/,Community-driven security conferences,All Levels,High
+Learning Resources,Community,r/netsec,Community,Free,https://www.reddit.com/r/netsec/,Network security subreddit,All Levels,Medium
+Learning Resources,Community,r/AskNetsec,Community,Free,https://www.reddit.com/r/AskNetsec/,Security Q&A,All Levels,Medium
+Learning Resources,Community,0x00sec,Forum,Free,https://0x00sec.org/,Hacker community forum,Intermediate,High
+Learning Resources,Community,Hack Forums,Forum,Free,https://hackforums.net/,Security discussion (use caution),All Levels,Low
+Learning Resources,Newsletter,tl;dr sec,Newsletter,Free,https://tldrsec.com/,Security news summary,All Levels,Medium
+Learning Resources,Newsletter,Krebs on Security,Newsletter,Free,https://krebsonsecurity.com/,Security news and investigation,All Levels,High
+Learning Resources,Twitter,@GossiTheDog,Twitter,Free,https://twitter.com/GossiTheDog,Security researcher,All Levels,Medium
+Learning Resources,Twitter,@SwiftOnSecurity,Twitter,Free,https://twitter.com/SwiftOnSecurity,Security commentary,All Levels,Medium
+Learning Resources,Twitter,@x0rz,Twitter,Free,https://twitter.com/x0rz,Threat intelligence,All Levels,Medium
+Learning Resources,Twitter,@malwareunicorn,Twitter,Free,https://twitter.com/malwareunicorn,Malware researcher,All Levels,High
+Certifications,Training,OffSec PEN-200 (OSCP),Course,$1649,https://www.offensive-security.com/pwk-oscp/,Penetration testing with Kali Linux,Intermediate,Critical
+Certifications,Training,OffSec PEN-300 (OSEP),Course,$1649,https://www.offensive-security.com/pen300-osep/,Evasion techniques and breaching defenses,Advanced,Critical
+Certifications,Training,OffSec WEB-200 (OSWA),Course,$999,https://www.offensive-security.com/web200-oswa/,Web application assessments,Intermediate,High
+Certifications,Training,OffSec WEB-300 (OSWE),Course,$1649,https://www.offensive-security.com/awae-oswe/,Advanced web attacks and exploitation,Advanced,Critical
+Certifications,Training,OffSec WEB-300 (OSWP),Course,$450,https://www.offensive-security.com/wifu-oswp/,Wireless attacks,Intermediate,High
+Certifications,Training,OffSec SOC-200 (OSTH),Course,$1499,https://www.offensive-security.com/soc200-osth/,Threat hunting,Advanced,Medium
+Certifications,Training,OffSec SOC-200 (OSIR),Course,$1499,https://www.offensive-security.com/soc200-osir/,Incident response,Advanced,Medium
+Certifications,Training,OffSec EXP-301 (OSED),Course,$1649,https://www.offensive-security.com/exp301-osed/,Windows user-mode exploit development,Advanced,Critical
+Certifications,Training,OffSec EXP-401 (OSEE),Course,$5999,https://www.offensive-security.com/exp401-osee/,Advanced Windows exploitation,Expert,High
+Certifications,Training,Altered Security CRTP,Course,$249,https://www.alteredsecurity.com/redteamlab,Active Directory attacks,Intermediate,Critical
+Certifications,Training,Altered Security CRTE,Course,$499,https://www.alteredsecurity.com/gcb,Advanced AD red teaming,Advanced,Critical
+Certifications,Training,Altered Security CRTO,Course,$499,https://www.alteredsecurity.com/redteamops,Red team operations,Advanced,Critical
+Certifications,Training,Altered Security CARTP,Course,$349,https://www.alteredsecurity.com/azureadlab,Azure red teaming,Advanced,High
+Certifications,Training,TCM PNPT,Course,$399,https://academy.tcm-sec.com/,Practical network penetration testing,Intermediate,Critical
+Certifications,Training,INE eLearnSecurity,Subscription,$799/year,https://ine.com/,Multiple security certifications,All Levels,High
+Certifications,Training,SANS Courses,Various,$6000-8500/course,https://www.sans.org/,Premier security training,Advanced,High
+Certifications,Exam,CEH Exam,Exam,$850-1199,https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/,Ethical hacking certification,Beginner,Medium
+Certifications,Exam,CHFI Exam,Exam,$550,https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/,Computer forensics,Intermediate,Medium
+Assembly,Documentation,x86 Assembly Guide,Documentation,Free,https://www.cs.virginia.edu/~evans/cs216/guides/x86.html,University assembly guide,Beginner,High
+Assembly,Documentation,Intel Software Developer Manuals,Documentation,Free,https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html,Official processor documentation,Advanced,Critical
+Assembly,Documentation,AMD64 Architecture Manual,Documentation,Free,https://www.amd.com/en/support/tech-docs,AMD processor documentation,Advanced,High
+Assembly,Tool,NASM,Tool,Free,https://www.nasm.us/,Netwide Assembler,Intermediate,High
+Assembly,Tool,FASM,Tool,Free,https://flatassembler.net/,Flat assembler,Intermediate,Medium
+Assembly,Training,Nightmare,Course,Free,https://guyinatuxedo.github.io/,Binary exploitation course,Intermediate,Critical
+Assembly,Training,Reverse Engineering for Beginners,Book,Free,https://beginners.re/,Free RE book,Beginner,Critical
+Networking,Tool,Wireshark,Tool,Free,https://www.wireshark.org/,Network protocol analyzer,All Levels,Critical
+Networking,Tool,tcpdump,Tool,Free,https://www.tcpdump.org/,Packet capture,Intermediate,High
+Networking,Documentation,TCP/IP Guide,Documentation,Free,http://www.tcpipguide.com/,Comprehensive networking guide,Beginner,High
+Scripting,IDE,Visual Studio Code,Tool,Free,https://code.visualstudio.com/,Code editor,All Levels,Critical
+Scripting,IDE,PyCharm,Tool,Free/$199/year,https://www.jetbrains.com/pycharm/,Python IDE,All Levels,High
+Scripting,IDE,Sublime Text,Tool,$99,https://www.sublimetext.com/,Text editor,All Levels,Medium

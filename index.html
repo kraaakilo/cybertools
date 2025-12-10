@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources Viewer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>
+          <h1>Tools List</h1>
+          <p>Red team, reverse engineering, and general cyber utilities.</p>
+        </div>
+        <div class="author">
+          <a href="https://triplea.red" target="_blank">triplea ©</a>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search resources...">
+        </div>
+        <div class="filter-group">
+          <select id="categoryFilter">
+            <option value="">All Categories</option>
+          </select>
+          <select id="subcategoryFilter">
+            <option value="">All Subcategories</option>
+          </select>
+          <select id="typeFilter">
+            <option value="">All Types</option>
+          </select>
+          <select id="costFilter">
+            <option value="">All Costs</option>
+          </select>
+          <select id="skillFilter">
+            <option value="">All Skill Levels</option>
+          </select>
+          <select id="priorityFilter">
+            <option value="">All Priorities</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div>Showing <strong id="resultCount">0</strong> of <strong id="totalCount">0</strong> resources</div>
+        <div id="filterStats"></div>
+      </div>
+
+      <div class="table-container">
+        <div class="loading" id="loading">Loading resources...</div>
+        <table id="resourceTable" style="display: none;">
+          <thead>
+            <tr>
+              <th class="sortable" data-column="Category">Category</th>
+              <th class="sortable" data-column="Subcategory">Subcategory</th>
+              <th class="sortable" data-column="Resource Name">Resource Name</th>
+              <th class="sortable" data-column="Type">Type</th>
+              <th class="sortable" data-column="Cost">Cost</th>
+              <th data-column="URL/Source">URL/Source</th>
+              <th data-column="Description">Description</th>
+              <th class="sortable" data-column="Skill Level">Skill Level</th>
+              <th class="sortable" data-column="Priority">Priority</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+          </tbody>
+        </table>
+        <div class="no-results" id="noResults" style="display: none;">
+          No resources found matching your criteria. Try adjusting your filters or search term.
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

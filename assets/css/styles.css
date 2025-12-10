@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif !important;
+  background-image: url(/assets/img/mesh.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 12px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: white;
+  min-height: 100vh;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 24px 30px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 4px;
+  color: #202124;
+  font-weight: 600;
+}
+
+.header .author{
+  font-size:12px;
+  font-weight:600;
+  a {
+    color: inherit;
+    text-decoration:none;
+    cursor: pointer;
+  }
+}
+
+.header p {
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.controls {
+  padding: 16px 30px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 250px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+.filter-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-group select {
+  padding: 10px 12px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 13px;
+  background: white;
+  cursor: pointer;
+  transition: border 0.2s;
+  color: #202124;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+.stats {
+  padding: 12px 30px;
+  /* background: #f8f9fa; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 13px;
+  color: #5f6368;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.stats strong {
+  color: #202124;
+}
+
+.table-container {
+  overflow-x: auto;
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+thead {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 500;
+  color: #5f6368;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+th:hover {
+  background: #f8f9fa;
+}
+
+th.sortable::after {
+  content: ' ⇅';
+  opacity: 0.4;
+  font-size: 0.9em;
+}
+
+th.sort-asc::after {
+  content: ' ↑';
+  opacity: 1;
+  color: #1a73e8;
+}
+
+th.sort-desc::after {
+  content: ' ↓';
+  opacity: 1;
+  color: #1a73e8;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #202124;
+  font-size: 13px;
+}
+
+td.description{
+  font-family:monospace;
+  font-size:11px;
+}
+
+tr:hover {
+  background: #f8f9fa;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.badge-free {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-paid {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.badge-critical {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.badge-high {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.badge-medium {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.badge-beginner {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-intermediate {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.badge-advanced {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.link {
+  color: #1a73e8;
+  text-decoration: none;
+  word-break: break-all;
+  font-size:10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.8em;
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
